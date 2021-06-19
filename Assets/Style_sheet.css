@@ -1,0 +1,339 @@
+
+body {
+	background-color: lightslategray;
+}
+
+* p {
+	font-size: 18px;
+}
+
+* {
+	font-family: "Baloo Tammudu 2", cursive;
+}
+
+#brand {
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+nav a {
+	margin-right: 25px !important;
+	color: white;
+}
+
+nav ul li a {
+	font-size: 20px !important;
+}
+
+nav ul li a:hover,a:active {
+	font-weight: bold;
+	margin-right: 15px !important;
+	color: white;
+	text-decoration: underline 4px solid white !important;
+	text-underline-offset: 10px ;
+}
+
+#Home {
+	background-image: linear-gradient(
+		rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url("Man.jpg");
+	height: 660px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: center;
+
+}
+
+#Home h1 {
+	font-size: 70px;
+	font-weight: 900;
+	font-family: "Baloo Tammudu 2", cursive;
+	color: white;
+	margin-top: 200px;
+}
+
+#Home p {
+	font-size: 40px;
+	font-weight: 600;
+	font-family: "Baloo Tammudu 2", cursive;
+	color: white;
+}
+#About h2 {
+	font-weight: bolder;
+}
+
+#About mark {
+	background-color: white;
+	font-weight: 700;
+}
+
+#About hr {
+	color: dodgerblue;
+	border: 2px solid dodgerblue;
+	border-radius: 10px;
+	width: 20%;	
+}
+
+#About h5 {
+	font-weight: 600;
+}
+
+#Services {
+	text-align: center;
+}
+
+#Services h1 {
+	font-size: 50px;
+	font-weight: 800;
+}
+
+#Services hr{
+	color: dodgerblue;
+	border: 3px solid dodgerblue;
+	border-radius: 10px;
+	width: 6%;
+}
+
+#Services i {
+	font-size: 38px;
+	padding: 25px;
+	border: solid 8px dodgerblue;
+	border-radius: 100%;
+}
+
+#Services h3 {
+	font-weight: 550;
+}
+
+/* #services_border div div {
+	border-radius: 20px;
+} */
+
+#background2 {
+	background-image: linear-gradient(
+		rgba(0, 0, 0, .9),
+		rgba(0, 0, 0, .9)),url('class.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* height: 450px; */
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	background-position: center;
+}
+
+#background2 i {
+	font-size: 40px;
+	padding: 20px;
+	border: 8px solid white;
+	border-radius: 100%;
+}
+
+/* #background2 div div {
+	padding-top: 40px;
+} */
+
+.background2_p {
+	font-size: 40px !important;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#Portfolio {
+	text-align: center;
+	box-sizing: border-box;
+}
+#Portfolio h1 {
+	font-size: 60px;
+	font-weight: 900;
+}
+
+#Portfolio hr {
+	color: dodgerblue;
+	border: 3px solid dodgerblue;
+	border-radius: 10px;
+	width: 6%;
+}
+
+#Portfolio mark {
+	font-size: 16px;
+	font-weight: 400;
+	color: dodgerblue;
+	background-color: white;
+	padding-bottom: 0;
+}
+#Portfolio p {
+	font-size: 16px;
+}
+
+#Portfolio h5 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#Portfolio i {
+	color: dodgerblue;
+	font-size: 25px;
+	padding: 5px;
+	border: 5px solid dodgerblue;
+	border-radius: 100%;
+	margin-left: 20px;
+}
+
+/* #Portfolio .card {
+	border-radius: 20px !important;
+} */
+
+#Portfolio .card:hover {
+	opacity: .6;
+}
+
+#background6 {
+	background-image: linear-gradient( to bottom,
+		rgba(0, 90, 156, .8),
+		rgba(0, 90, 156, 1.0)),url('grass.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* height: 500px; */
+	text-align: center;
+	color: white;
+	background-position: center;
+}
+
+#background6 div {
+	/* width: 80%; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Blog {
+	text-align: center;
+}
+
+#Blog h1 {
+	font-size: 60px;
+	font-weight: 900;
+}
+
+#Blog hr {
+	color: dodgerblue;
+	border: 3px solid dodgerblue;
+	border-radius: 10px;
+	width: 6%;
+}
+
+#Blog button {
+	font-weight: bold;
+	padding-top: 8px;
+
+}
+
+/* #Blog .card {
+	border-radius: 30px;
+} */
+
+#Blog .card:hover {
+	opacity: .6;
+}
+
+#Blog div p {
+	opacity: .8;
+	font-size: 16px;
+}
+
+#Blog h4 {
+	font-weight: 600;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#Contact {
+	background-image: linear-gradient( to bottom,
+		rgba(0, 90, 156, .8),
+		rgba(0, 90, 156, 1.0)),url('grass.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* height: 600px; */
+	text-align: left;
+	background-position: center;
+}
+
+#Contact h1 {
+	font-size: 35px;
+	font-weight: 900;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#Contact hr {
+	color: dodgerblue;
+	border: 2px solid dodgerblue;
+	border-radius: 10px;
+	width: 20%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#Contact #lasticon {
+	padding: 6px;
+	border: 2px solid dodgerblue;
+	border-radius: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	*p {
+		font-size: 12px;
+	}
+
+	#Home h1 {
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	#Home p {
+		font-size: 30px;
+	}
+
+	#About mark {
+		font-weight: 400;
+	}
+
+	#About h5 {
+		font-size: 25px;
+	}
+
+	#Services h1 {
+		font-size: 60px;
+	}
+
+	#Services hr {
+		width: 16%;
+	}
+
+	#Portfolio hr {
+		width: 12%;
+	}
+
+	#Portfolio p {
+		font-size: 14px;
+	}
+
+	#Portfolio i {
+		font-size: 16px;
+		padding: 3px;
+		border: 3px solid dodgerblue;
+		margin-left: 5px;
+	}
+
+	#Portfolio .card.body {
+
+	}
+
+	#Blog button {
+		margin-top: 160px !important;
+	}
+}
+
